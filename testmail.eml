@@ -1,0 +1,42 @@
+Return-Path: <from@example.com>
+X-Original-To: to@example.com
+Delivered-To: to@example.com
+Received: from [10.0.0.1] (unknown [192.168.0.1])
+	by example.com (Postfix) with ESMTPSA id E812832ED76
+	for <from@example.com>; Tue, 17 Apr 2018 17:16:22 +0200 (CEST)
+To: to@example.com
+From: Matthias Schneider <from@example.com>
+Subject: Testsubject
+Message-ID: <25f38267-448c-cb66-4a17-bd298589517e@example.com>
+Date: Tue, 17 Apr 2018 16:51:24 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
+ Thunderbird/52.7.0
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------8F8F2F0EECFB437F013C0D7A"
+Content-Language: en-US
+
+This is a multi-part message in MIME format.
+--------------8F8F2F0EECFB437F013C0D7A
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+This is a testmail with *Body*
+
+
+--------------8F8F2F0EECFB437F013C0D7A
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p>This is a testmail with <b>Body</b><br>
+    </p>
+  </body>
+</html>
+
+--------------8F8F2F0EECFB437F013C0D7A--
