@@ -38,6 +38,8 @@ func SendEml(eml io.Reader, milterHostPort, from, to, sendingMtaHostname, sendin
 	if err != nil {
 		return 0, err
 	}
+	
+	defer conn.Close()
 
 	if sendingMtaHostname == "" {
 		sendingMtaHostname = "localhost"
